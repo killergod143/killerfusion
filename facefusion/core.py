@@ -213,7 +213,7 @@ def run() -> None:
 	else:
 		import facefusion.uis.core as ui
 
-		ui.launch(share=True)
+		ui.launch()
 
 
 def destroy() -> None:
